@@ -8,24 +8,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * Desarrolla una aplicación Java que utilice JDBC para interactuar con una base
- * de datos MariaDB que contiene dos tablas relacionadas en una relación de
- * muchos a muchos. Las tablas se denominan "Estudiantes" y "Cursos". Cada tabla
- * debe contener los siguientes atributos:
- *
- * La aplicación debe ser capaz de realizar las siguientes operaciones:
- *
- * Establecer una conexión a la base de datos MariaDB. En caso de que no exista
- * alguna de las tablas, la cree. Insertar nuevos estudiantes y cursos en las
- * tablas respectivas. Registrar inscripciones de estudiantes en cursos.
- * Consultar la lista de estudiantes inscritos en un curso específico. Consultar
- * los cursos en los que un estudiante particular está inscrito. Actualizar
- * información de estudiantes o cursos. Eliminar registros de estudiantes,
- * cursos o inscripciones. Asegúrate de manejar excepciones adecuadamente, crear
- * las relaciones entre las tablas y aislar cada una de las consultas en un
- * método.
- *
+/** *
  * @author jacqueline
  *
  */
